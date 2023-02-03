@@ -26,7 +26,7 @@ class UserDetailScreen extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               SizedBox(
-                height: 24,
+                height: 26,
               ),
               Text(
                 asd.login,

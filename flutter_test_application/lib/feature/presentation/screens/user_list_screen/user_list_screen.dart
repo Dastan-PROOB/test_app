@@ -20,6 +20,7 @@ class UserListScreen extends StatelessWidget {
         child: Column(
           children: <Widget>[
             ActionButtons(),
+            SizedBox(height: 2,),
             SizedBox(height: 25),
             Expanded(child: UserListWidget()),
           ],
